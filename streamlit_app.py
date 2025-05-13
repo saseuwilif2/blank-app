@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="Limbah Hazard Checker", layout="centered")
-st_lottie(lottie_animasi, height=300)
+
 st.title("☣️ Limbah Hazard Checker")
 
 st.markdown("""
