@@ -11,12 +11,12 @@ Masukkan karakteristik limbah di bawah ini untuk mengecek statusnya.
 # Sidebar for input
 with st.sidebar:
     st.header("🧪 Karakteristik Limbah")
-pH = st.slider("pH Limbah", 0.0, 14.0, 7.0)
-logam_berat = st.radio("Apakah mengandung logam berat melebihi ambang batas?", ("Tidak", "Ya"))
-mudah_menyala = st.checkbox("Mudah Menyala / Inflamabel")
-reaktif = st.checkbox("Reaktif terhadap air / udara")
-korosif = st.checkbox("Korosif terhadap logam atau jaringan hidup")
-beracun = st.checkbox("Beracun terhadap manusia / lingkungan")
+    pH = st.slider("pH Limbah", 0.0, 14.0, 7.0)
+    logam_berat = st.radio("Apakah mengandung logam berat melebihi ambang batas?", ("Tidak", "Ya"))
+    mudah_menyala = st.checkbox("Mudah Menyala / Inflamabel")
+    reaktif = st.checkbox("Reaktif terhadap air / udara")
+    korosif = st.checkbox("Korosif terhadap logam atau jaringan hidup")
+    beracun = st.checkbox("Beracun terhadap manusia / lingkungan")
 
 # Tombol klasifikasi
 if st.button("🔍 Klasifikasikan Limbah"):
