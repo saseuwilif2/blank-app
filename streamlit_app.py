@@ -9,6 +9,10 @@ Aplikasi ini digunakan untuk mengklasifikasikan limbah berbahaya dan beracun (**
 Masukkan karakteristik limbah di bawah ini untuk mengecek statusnya.
 """)
 
+# Divider
+st.markdown("---")
+
+
 # Sidebar for input
 with st.sidebar:
     st.header("🧪 Karakteristik Limbah")
