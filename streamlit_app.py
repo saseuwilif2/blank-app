@@ -1,19 +1,6 @@
 import streamlit as st
 
 st.set_page_config(page_title="Limbah Hazard Checker", layout="centered")
-from streamlit_lottie import st_lottie
-import requests
-
-def load_lottie_url(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-# Contoh Lottie dari URL
-lottie_url = "https://lottie.host/c64dc5df-11de-4260-9559-20a8fa63b0ab/bnS0qiWIrh.lottie"
-lottie_animasi = load_lottie_url(lottie_url)
-
 st_lottie(lottie_animasi, height=300)
 st.title("☣️ Limbah Hazard Checker")
 
