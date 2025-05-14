@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Limbah Hazard Checker", layout="centered")
 
-st.title("☣️ Limbah Hazard Checker")
+st.title("☣️ Waste Hazard Checker")
 
 st.markdown("""
 Aplikasi ini digunakan untuk mengklasifikasikan limbah berbahaya dan beracun (**B3**) berdasarkan **PP No. 74 Tahun 2001**.
