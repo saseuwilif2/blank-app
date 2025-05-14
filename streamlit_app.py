@@ -21,11 +21,11 @@ with st.sidebar:
     mudah_menyala = st.checkbox("Mudah Menyala / Inflamabel")
     reaktif = st.checkbox("Reaktif terhadap air / udara")
     korosif = st.checkbox("Korosif terhadap logam atau jaringan hidup")
-    beracun = st.checkbox,("Beracun terhadap manusia / lingkungan")
+    beracun = st.checkbox("Beracun terhadap manusia / lingkungan")
 
 # Tombol klasifikasi
 if st.button("🔍 Klasifikasikan Limbah"):
-    alasan = []
+    alasan = ()
     is_b3 = False
 
     if pH < 2 or pH > 12.5:
