@@ -25,7 +25,7 @@ with st.sidebar:
 
 # Tombol klasifikasi
 if st.button("🔍 Klasifikasikan Limbah"):
-    alasan = ()
+    alasan = []
     is_b3 = False
 
     if pH < 2 or pH > 12.5:
