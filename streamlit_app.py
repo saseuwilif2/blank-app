@@ -16,7 +16,7 @@ st.markdown("---")
 # Sidebar for input
 with st.sidebar:
     st.header("🧪 Karakteristik Limbah")
-    pH = st.slider("pH Limbah", 0.0, 14.0, 7.0)
+    pH = st.number_input("pH Limbah", 0.0, 14.0, 7.0)
     logam_berat = st.radio("Apakah mengandung logam berat melebihi ambang batas?", ("Tidak", "Ya"))
     mudah_menyala = st.checkbox("Mudah Menyala / Inflamabel")
     reaktif = st.checkbox("Reaktif terhadap air / udara")
