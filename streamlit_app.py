@@ -54,10 +54,10 @@ if st.button("🔍 Klasifikasikan Limbah"):
 
         st.markdown("### ♻️ Rekomendasi Pengolahan:")
         st.markdown("""
-        - 🔥 **Insinerasi** untuk limbah inflamabel atau beracun.
-        - 🧪 **Stabilisasi/Solidifikasi** untuk logam berat atau lumpur.
-        - 🧊 **Netralisasi** untuk limbah asam atau basa ekstrem.
-        - 🚛 **Landfilling khusus B3** untuk residu hasil pengolahan.
+        - 🔥 **Insinerasi(pembakaran limbah)** untuk limbah inflamabel atau beracun.
+        - 🧪 **Stabilisasi/Solidifikasi(Mengubah fisik limbah agar tidak mudah larut)** untuk logam berat atau lumpur.
+        - 🧊 **Netralisasi(menetralkan)** untuk limbah asam atau basa ekstrem.
+        - 🚛 **Landfilling(menimbun sampah) khusus B3** untuk residu hasil pengolahan.
         """)
     else:
         st.success("✅ Limbah ini **bukan** termasuk kategori B3 menurut parameter yang dimasukkan.")
