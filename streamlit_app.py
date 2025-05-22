@@ -32,13 +32,13 @@ if st.button("🔍 Klasifikasikan Limbah"):
         alasan.append(f"- pH ekstrem ({pH}) → **Korosif** (Menyebabkan iritasi (terbakar) pada kulit)")
         is_b3 = True
     if logam_berat == "Ya":
-        alasan.append("- Mengandung logam berat → **Toksik**")
+        alasan.append("- Mengandung logam berat → **Toksik/Beracun** (menyebabkan kematian atau sakit yang serius apabila masuk ke dalam tubuh melalui pernafasan, kulit atau mulut.)")
         is_b3 = True
     if mudah_menyala:
-        alasan.append("- Mudah menyala → **Inflamabel**")
+        alasan.append("- Mudah menyala → **Inflamabel** (pada titik nyala (flash point)tidak lebih dari 60 derajat C (140 derajat F) akan menyala apabila terjadi kontak dengan api.)")
         is_b3 = True
     if reaktif:
-        alasan.append("- Reaktif terhadap air/udara → **Reaktif**")
+        alasan.append("- Reaktif terhadap air/udara → **Reaktif** (menghasilkan gas, uap, atau asap beracun yang berbahaya).")
         is_b3 = True
     if korosif:
         alasan.append("- Bersifat korosif → **Korosif**")
