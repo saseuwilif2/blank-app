@@ -29,8 +29,7 @@ if st.button("🔍 Klasifikasikan Limbah"):
     is_b3 = False
 
     if pH < 2 or pH > 12.5:
-        alasan.append(f"- pH ekstrem ({pH}) → **Korosif** 
-        Menyebabkan iritasi (terbakar) pada kulit")
+        alasan.append(f"- pH ekstrem ({pH}) → **Korosif** (Menyebabkan iritasi (terbakar) pada kulit)")
         is_b3 = True
     if logam_berat == "Ya":
         alasan.append("- Mengandung logam berat → **Toksik**")
