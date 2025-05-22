@@ -41,10 +41,10 @@ if st.button("🔍 Klasifikasikan Limbah"):
         alasan.append("- Reaktif terhadap air/udara → **Reaktif** (menghasilkan gas, uap, atau asap beracun yang berbahaya).")
         is_b3 = True
     if korosif:
-        alasan.append("- Bersifat korosif → **Korosif**")
+        alasan.append("- Bersifat korosif → **Korosif** (menyebabkan kematian atau sakit yang serius apabila masuk ke dalam tubuh melalui pernafasan, kulit atau mulut.)")
         is_b3 = True
     if beracun:
-        alasan.append("- Bersifat racun → **Toksik**")
+        alasan.append("- Bersifat racun → **Toksik** (Menyebabkan iritasi (terbakar) pada kulit)")
         is_b3 = True
 
     if is_b3:
